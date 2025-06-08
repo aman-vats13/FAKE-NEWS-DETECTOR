@@ -15,6 +15,17 @@ This project builds a machine learning model to classify news articles as **Real
 
 ---
 
+Use of AI in This Project
+This project leverages Artificial Intelligence (AI) techniques to automatically classify news articles as real or fake. Specifically:
+
+Natural Language Processing (NLP): The text of news articles is converted into meaningful numerical data using TF-IDF vectorization, which helps the AI understand the importance of words and phrases in the context of news content.
+
+Machine Learning Classification: A Logistic Regression model — a type of AI algorithm — learns patterns from a large dataset of labeled real and fake news articles. It uses these learned patterns to predict whether new, unseen news text is genuine or misleading.
+
+Automation of Fake News Detection: This AI-powered approach helps quickly and accurately identify potentially false news, assisting users in verifying news credibility without manual fact-checking.
+
+By combining NLP and machine learning, the project demonstrates how AI can support combating misinformation through automated text analysis and classification.
+
 ## Folder Structure
 fake-news-detector/
 ├── dataset/
